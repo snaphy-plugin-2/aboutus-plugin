@@ -4,7 +4,9 @@
   },
   "js": {
     "/aboutUs/scripts/routes/aboutUs.js": "aboutUsRoute",
-    "/aboutUs/scripts/controllers/aboutUs.js": "aboutUsController"
+    "/aboutUs/scripts/controllers/aboutUs.js": "aboutUsController",
+    "/aboutUs/scripts/directives/aboutUs.js": "aboutUsDirective",
+    "/aboutUs/library/ckeditor/ckeditor.js": "ckEditor"
   },
   "moduleDependencies": {
 
