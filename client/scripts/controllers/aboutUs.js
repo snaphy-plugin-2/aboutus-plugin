@@ -72,7 +72,9 @@ angular.module($snaphy.getModuleName())
             }
         };
 
-
+        /**
+         * Initialize
+         */
         $scope.init = function(){
             database.find({
                 filter:{
@@ -84,7 +86,6 @@ angular.module($snaphy.getModuleName())
                 $scope.loaded = true;
                 if(value.length){
                     $timeout(function(){
-                        //console.log(value);
                         for(var key in value[0]){
                             if(value[0].hasOwnProperty(key)){
                                 $scope.data[key] = value[0][key];
@@ -97,6 +98,7 @@ angular.module($snaphy.getModuleName())
             });
         };
 
+        $scope.init();
 
     }//controller function..
 ]);

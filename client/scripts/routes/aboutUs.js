@@ -20,7 +20,7 @@ angular.module($snaphy.getModuleName())
                     //Provide routes in this way..
                         .state(info.toLowerCase(),{
                         url: url,
-                        templateUrl: '/aboutUs/views/' + info.toLowerCase() + '.html',
+                        templateUrl: '/aboutUs/views/settings.html',
                         controller: 'aboutUsControl',
                         data: {
                             permissions: {
